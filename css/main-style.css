@@ -1,0 +1,31 @@
+
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 5em;
+    font-weight: 100;
+}
+h2{ 
+    font-size: 2em;
+    font-weight: 100;
+}
+
+div{
+    
+}
+#containers{
+    
+}
+
+/*ID Selectors*/
+#heading{    
+     background-image: url("../images/bg-typewriter.jpg");
+     background-position: left top;
+    color: #4D4D4D;
+    height: 100%;
+    text-align: center;
+}
