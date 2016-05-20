@@ -1,31 +1,63 @@
-
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Titillium Web', sans-serif;
+    background-image: url("../images/bg-typewriter.jpg");
+    background-attachment: fixed;
     font-weight: 100;
+    
 }
 
 h1{
     font-size: 5em;
     font-weight: 100;
-}
-h2{ 
-    font-size: 2em;
-    font-weight: 100;
+    margin: 0;
 }
 
-div{
-    
+h2{ 
+    font-size: 4em;
+    font-weight: 100;
+    margin: 0;
 }
-#containers{
-    
+
+h3{
+    font-size: 3em;
+    font-weight: 100;
+    margin: 0;    
 }
 
 /*ID Selectors*/
-#heading{    
-     background-image: url("../images/bg-typewriter.jpg");
-     background-position: left top;
+#heading{
+    margin-top: 40px;
     color: #4D4D4D;
-    height: 100%;
+    text-align: center;
+    width: 95vw;
+    
+}
+
+
+
+#projects{
+    margin-top: 75px;
+    font-weight: normal;
+    background-color: rgba(94, 65, 47, .5);    
+}
+
+#proj-list{
+    padding: 50px;
+}
+
+#proj-list li{
+    display: inline-flex;
+    padding: 50px;
+}
+/*CLASS selectors*/
+.highlight-text{
+    color: #F07818;
+}
+
+.center{
     text-align: center;
 }
