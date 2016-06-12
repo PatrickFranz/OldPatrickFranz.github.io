@@ -4,8 +4,7 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
-    background-image: url("../images/bg-typewriter.jpg");
-    background-attachment: fixed;
+
     font-weight: 100;
     
 }
@@ -30,17 +29,17 @@ h3{
 
 /*ID Selectors*/
 #heading{
-    margin-top: 40px;
-    color: #4D4D4D;
+    background-image: url('../images/bg-wide.JPG');
+    background-repeat: no-repeat;
+    padding: 40px 0 60px;
+    color: white;
     text-align: center;
-    width: 95vw;
+    width: 100%;
     
 }
 
-
-
 #projects{
-    margin-top: 75px;
+    
     font-weight: normal;
     background-color: rgba(94, 65, 47, .5);    
 }
@@ -53,6 +52,11 @@ h3{
     display: inline-flex;
     padding: 50px;
 }
+
+#quote{
+    font-size: 2em;
+    margin: 50px 0 0 0;
+}
 /*CLASS selectors*/
 .highlight-text{
     color: #F07818;
@@ -60,4 +64,13 @@ h3{
 
 .center{
     text-align: center;
+}
+
+.pr-img{
+    border:5px solid #2E1D15;
+    border-radius: 50%;
+}
+
+.pr-heading{
+    font-size: 1.5em;
 }
