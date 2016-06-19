@@ -29,23 +29,23 @@ h3{
 
 /*ID Selectors*/
 #heading{
-    background-image: url('../images/bg-wide.JPG');
+    background-image: url('../images/bg-wide1.png');
     background-repeat: no-repeat;
-    padding: 40px 0 60px;
+    background-size: 100%;    
+    padding: 40px 0 150px 0;
     color: white;
     text-align: center;
     width: 100%;
+    min-width: 1200px;
     
 }
-
-#projects{
-    
+#projects{    
     font-weight: normal;
-    background-color: rgba(94, 65, 47, .5);    
+    padding: 50px 0 0 20px;
 }
 
 #proj-list{
-    padding: 50px;
+    padding: 25px 50px;
 }
 
 #proj-list li{
